@@ -1,0 +1,673 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+
+body{
+    /*background-color: #e3f0ff;*/
+    background:radial-gradient(#E3F0FF, #F4D58D);
+    min-height: 100vh;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+
+.navbar-brand{
+    margin-left: 80px;
+}
+
+#nav-principal{
+    margin-right: 45px;
+}
+
+
+nav.navbar-transparente{
+    background: rgba(0, 0, 0, 0.6);
+    /*padding: 15px 0px;*/
+}
+
+.navbar-expand-sm .navbar-nav .nav-link{
+    color: white;
+    
+}
+
+
+
+.navbar-expand-sm .navbar-nav .nav-link:hover{
+    color: tomato;
+}
+
+.navbar-toggler-icon{
+    border: white;
+}
+
+.divisor{
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+
+
+main{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#input-email-index{
+    width: 100%;
+    margin: 0px 5px 0px 5px;
+}
+
+.text-bx{
+    width: 40%;
+    margin: 80px 0px 0px 80px;
+
+}
+.text-bx h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+   
+}
+.text-bx h1 b{
+    color: tomato;
+}
+.text-bx p{
+    color: #372c62;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20PX;
+}
+
+.medias-socias{
+    margin-top: 30px;
+    margin-bottom: -50px;
+}
+.medias-socias a{
+    text-decoration: none;
+}
+
+.medias-socias i{
+    font-size: 23px;
+    margin: 0 3px;
+    color: white;
+    background-color: darkgoldenrod;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.img-bx{
+    width: 60%;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.img-bx img{
+    width: 75%;
+    border-radius: 25px;
+    box-shadow: 10px 5px 25px black;
+}
+
+
+/* START FOOTER*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer{
+    background-color: darkgoldenrod;
+    padding: 50px 0 0 0 ;
+    margin-top: 100px ;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: tomato;
+    padding-left: 10px;
+}
+
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 10px;
+    margin-top: -25px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: lightgray;
+}
+.footer-col .form-sub input::placeholder{
+    color: white;
+}
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px; 
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: gray;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;        
+}
+
+.assinatura{
+    display: grid;
+    justify-content: center;
+    
+    
+    
+}
+
+
+/* END FOOTER*/
+
+
+/* INICIO ABA PRODUTOS*/
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    
+    padding: 10px;
+    background: tomato;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+}
+
+
+.bloco{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    max-width: 100%;
+    display: block;
+    margin: 20px 10px 20px 10px;
+      
+}
+
+hr {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.grid{
+    
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   max-width: 800px;
+   margin: 0 auto;
+ 
+}
+
+.blocoGrid{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.grid > div.blocoAnuncio{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    grid-column: 1;
+    grid-row: 1/6;
+    display: block;
+    border-top: 10px solid tomato;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;   
+}
+
+/* FIM PRODUTOS*/
+
+/* INCIO PROMOÇÕES*/
+
+.container-produtos{
+    align-items: center;
+    justify-content: center;
+    width:auto;
+    height:auto;
+    border-radius:10px;
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    padding:20px;
+    
+}
+
+.card{
+    background:#FFF;
+    width:auto;
+    height:auto;
+    border-radius: 10px;
+    padding: 30px 20px;
+    margin: 0 1.5%;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produto-descricao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.card img{
+    width: 75%;
+    height: 75%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: contain;
+    overflow: hidden;
+}
+
+
+.card:hover{
+
+    border-color: #C78C19;
+
+}
+
+.card:hover h1{
+    font-size: 54px;
+}
+
+/* FIM PROMOÇÕES*/
+
+
+/* INICIO CADASTRAR*/
+
+.container-contato {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 3rem;
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#texto-titulo{
+    margin: 25px 0px 0px 50px;
+}
+
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: darkgoldenrod;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-group-contato {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box-contato {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box-contato input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+}
+
+.input-box-contato input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-box-contato input:focus-visible {
+    outline: 1px solid tomato;
+}
+
+.input-box-contato label,
+.gender-title h6 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-box-contato input::placeholder {
+    color: #000000be;
+}
+
+.gender-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 .5rem;
+}
+
+.gender-input {
+    display: flex;
+    align-items: center;
+}
+
+.gender-input input {
+    margin-right: 0.35rem;
+}
+
+.gender-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.continue-button button {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: darkgoldenrod;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button button:hover {
+    background-color: green;
+    
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: purple;
+}
+
+
+#container-login{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+#email-login{
+    
+    width: 80%;
+}
+
+#senha-login{
+    width: 50%;
+}
+
+#botao-login{
+    width: 30%;
+}
+
+
+/* FIM ABA CADASTRAR */
+
+/*INICIO ABA REGISTRO*/
+
+#registrar{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;;
+    margin-top: 150px;
+
+}
+
+
+
+
+
+/*----------------------*/
+
+/*             */
+/* Responsivo */
+
+@media (max-width:970px) {
+
+
+    
+    .navbar-brand{
+        margin-left: 50px;
+    }
+
+    .navbar-toggler{
+        margin-right: 25px;
+    }
+   
+
+    main{
+        flex-direction: column;
+    }
+    .text-bx,
+    .img-bx{
+        width: 100%;
+        text-align: center;
+        border-radius: 25px;
+    }
+    .text-bx{
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-top: 10px;
+    }
+    .text-bx .input-bx{
+        justify-content: center;
+    }
+}
+
+
+
+/* FOOTER*/
+
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px) {
+    .footer-col{
+        width: 100%;
+    }
+}
+/* FIM FOOTER */
+
+
+/*PRODUTOS*/
+@media (max-width: 600px) {
+    .grid {
+     grid-template-columns: repeat(2, 1fr);
+    }  
+ }
+/* FIM PRODUTOS */
+
+
+ /* CADASTRAR */
+
+ @media screen and (max-width: 1330px) {
+    .form-image {
+        display: none;
+    }
+    .container {
+        width: 50%;
+    }
+    .form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1064px) {
+    .container {
+        width: 90%;
+        height: auto;
+    }
+    .input-group {
+        flex-direction: column;
+        z-index: 5;
+        padding-right: 5rem;
+        max-height: 10rem;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+    }
+    .gender-inputs {
+        margin-top: 2rem;
+    }
+    .gender-group {
+        flex-direction: column;
+    }
+    .gender-title h6 {
+        margin: 0;
+    }
+    .gender-input {
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #container-login{
+        width: 10   0%;
+    }
+}
+/* FIM CADASTRAR*/
+
+
+/* INICIO PROMOÇÕES */
+
+
+
+
+
+    @media screen and (max-width:600px) {
+    .container-produtos{
+    flex-direction:column;
+    
+    }
+}
+
+/* FIM PROMOÇÕES */
